@@ -12,11 +12,10 @@ public class Task_15{
                 while((line = bufferedReader.readLine()) != null) {
                     System.out.println(line);
                 }
-
                 bufferedReader.close();
             }
             catch (IOException e) {
-                System.out.println("Ошибка ввода-вывода: " + e);
+                System.out.println("Ошибка: " + e);
             }
         }
     }
